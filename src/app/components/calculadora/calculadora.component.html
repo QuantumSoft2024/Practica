@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>App Calculadora</h1>
+  <hr />
+  <app-formulario
+    (enviarResultado)="recibirResultado($event)"
+  />
+  <hr />
+  <app-resultado
+    [resultado]=resultado
+  />
+</div>
